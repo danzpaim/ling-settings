@@ -1058,7 +1058,7 @@
     <message>
         <location filename="../src/qml/SideBar.qml" line="145"/>
         <source>Dock</source>
-        <translation>程序坞</translation>
+        <translation>Dock栏</translation>
     </message>
     <message>
         <location filename="../src/qml/SideBar.qml" line="154"/>

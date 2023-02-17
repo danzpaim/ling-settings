@@ -31,17 +31,17 @@ ItemPage {
                     spacing: CuteUI.Units.largeSpacing * 2
 
                     IconCheckBox {
-                        source: "qrc:/images/dock_bottom.svg"
-                        text: qsTr("Center")
-                        checked: appearance.dockStyle === 0
-                        onClicked: appearance.setDockStyle(0)
-                    }
-
-                    IconCheckBox {
-                        source: "qrc:/images/dock_straight.svg"
+                        source: "qrc:/images/dock_straight.png"
                         text: qsTr("Full")
                         checked: appearance.dockStyle === 1
                         onClicked: appearance.setDockStyle(1)
+                    }
+
+                    IconCheckBox {
+                        source: "qrc:/images/dock_bottom.png"
+                        text: qsTr("Center")
+                        checked: appearance.dockStyle === 0
+                        onClicked: appearance.setDockStyle(0)
                     }
                 }
             }
