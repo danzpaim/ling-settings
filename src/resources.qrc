@@ -38,9 +38,6 @@
         <file>qml/BluetoothPage.qml</file>
         <file>images/dock_top.svg</file>
         
-        <file>images/dock_bottom.png</file>
-        <file>images/dock_straight.png</file>
-        
         <file>images/dock_right.svg</file>
         <file>images/rot90.svg</file>
         <file>images/rot180.svg</file>

@@ -11,6 +11,7 @@ class About : public QObject
     Q_OBJECT
     Q_PROPERTY(bool isCuteOS READ isCuteOS CONSTANT)
     Q_PROPERTY(QString version READ version CONSTANT)
+    Q_PROPERTY(QString openCuteversion READ openCuteversion CONSTANT)
     Q_PROPERTY(QString osName READ osName CONSTANT)
     Q_PROPERTY(QString architecture READ architecture CONSTANT)
     Q_PROPERTY(QString kernelVersion READ kernelVersion CONSTANT)
@@ -27,6 +28,7 @@ public:
     bool isCuteOS();
 
     QString version();
+    QString openCuteversion();
 
     QString osName();
     QString architecture();

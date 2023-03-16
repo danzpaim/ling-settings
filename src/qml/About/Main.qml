@@ -64,6 +64,11 @@ ItemPage {
                 }
 
                 StandardItem {
+                    key: qsTr("openCute Version")
+                    value: about.openCuteversion
+                }
+
+                StandardItem {
                     key: qsTr("System Type")
                     value: about.architecture
                 }

@@ -69,31 +69,36 @@
     </message>
     <message>
         <location filename="../src/qml/About/Main.qml" line="96"/>
+        <source>openCute Version</source>
+        <translation>内部openCute版本</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/About/Main.qml" line="101"/>
         <source>System Type</source>
         <translation>系统类型</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="101"/>
+        <location filename="../src/qml/About/Main.qml" line="106"/>
         <source>Kernel Version</source>
         <translation>内核版本</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="106"/>
+        <location filename="../src/qml/About/Main.qml" line="111"/>
         <source>Processor</source>
         <translation>处理器</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="111"/>
+        <location filename="../src/qml/About/Main.qml" line="116"/>
         <source>RAM</source>
         <translation>内存大小</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="116"/>
+        <location filename="../src/qml/About/Main.qml" line="121"/>
         <source>Internal Storage</source>
         <translation>内部存储</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="128"/>
+        <location filename="../src/qml/About/Main.qml" line="132"/>
         <source>Software Update</source>
         <translation>软件更新</translation>
     </message>
@@ -500,7 +505,7 @@
     <message>
         <location filename="../src/qml/Power/Main.qml" line="104"/>
         <source>Performance mode: CPU and GPU frequencies will be increased, while power consumption and heat generation will be increased.</source>
-        <translation>性能模式: CPU和GPU频率将提升，同时耗电和发热将增加。</translation>
+        <translation>性能模式: CPU和GPU的频率将提升，但同时耗电和发热将增加。</translation>
     </message>
     <message>
         <location filename="../src/qml/Power/Main.qml" line="116"/>
@@ -638,12 +643,12 @@
     <message>
         <location filename="../src/qml/Bluetooth/Main.qml" line="66"/>
         <source>Pairing unsuccessful</source>
-        <translation>配对不成功</translation>
+        <translation>配对失败</translation>
     </message>
     <message>
         <location filename="../src/qml/Bluetooth/Main.qml" line="70"/>
         <source>Connecting Unsuccessful</source>
-        <translation>连接不成功</translation>
+        <translation>连接失败</translation>
     </message>
     <message>
         <location filename="../src/qml/Bluetooth/Main.qml" line="134"/>

@@ -31,14 +31,14 @@ ItemPage {
                     spacing: CuteUI.Units.largeSpacing * 2
 
                     IconCheckBox {
-                        source: "qrc:/images/dock_straight.png"
+                        source: "qrc:/images/dock_straight.svg"
                         text: qsTr("Full")
                         checked: appearance.dockStyle === 1
                         onClicked: appearance.setDockStyle(1)
                     }
 
                     IconCheckBox {
-                        source: "qrc:/images/dock_bottom.png"
+                        source: "qrc:/images/dock_bottom.svg"
                         text: qsTr("Center")
                         checked: appearance.dockStyle === 0
                         onClicked: appearance.setDockStyle(0)
@@ -46,30 +46,30 @@ ItemPage {
                 }
             }
 
-//            // position
+            // position
 //            RoundedItem {
 //                Label {
 //                    text: qsTr("Position on screen")
 //                    color: CuteUI.Theme.disabledTextColor
 //                }
-
+//
 //                RowLayout {
 //                    spacing: CuteUI.Units.largeSpacing * 2
-
+//
 //                    IconCheckBox {
 //                        source: "qrc:/images/dock_left.svg"
 //                        text: qsTr("Left")
 //                        checked: appearance.dockDirection === 0
 //                        onClicked: appearance.setDockDirection(0)
 //                    }
-
+//
 //                    IconCheckBox {
 //                        source: "qrc:/images/dock_bottom.svg"
 //                        text: qsTr("Bottom")
 //                        checked: appearance.dockDirection === 1
 //                        onClicked: appearance.setDockDirection(1)
 //                    }
-
+//
 //                    IconCheckBox {
 //                        source: "qrc:/images/dock_right.svg"
 //                        text: qsTr("Right")

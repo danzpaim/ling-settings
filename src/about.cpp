@@ -94,6 +94,12 @@ QString About::version()
     return settings.value("Version").toString();
 }
 
+QString About::openCuteversion()
+{
+    QSettings settings("/etc/opencute_version",QSettings::IniFormat);
+    return settings.value("Version").toString();
+}
+
 QString About::osName()
 {
     return QSysInfo::prettyProductName();
