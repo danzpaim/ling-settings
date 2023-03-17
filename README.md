@@ -1,10 +1,8 @@
 # Settings
 
-[![Build](https://github.com/Cute-OS/settings/actions/workflows/build.yml/badge.svg)](https://github.com/Cute-OS/settings/actions/workflows/build.yml)
-
 The System Settings application for Cute Desktop.
 
-![screenshot](screenshots/Screenshot_20211025_150819.png)
+![screenshot](screenshots/settings.png)
 
 ## Dependencies
 Arch/Manjaro Dependencies:
