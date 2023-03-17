@@ -2,7 +2,7 @@
 
 The System Settings application for Cute Desktop.
 
-![screenshot](screenshots/settings.png)
+![settings-screenshot](screenshots/settings.png)
 
 ## Dependencies
 Arch/Manjaro Dependencies:
