@@ -55,7 +55,7 @@
     <message>
         <location filename="../src/qml/About/Main.qml" line="28"/>
         <source>About</source>
-        <translation>关于</translation>
+        <translation>关于CuteOS</translation>
     </message>
     <message>
         <location filename="../src/qml/About/Main.qml" line="79"/>
@@ -99,8 +99,13 @@
     </message>
     <message>
         <location filename="../src/qml/About/Main.qml" line="132"/>
-        <source>Software Update</source>
-        <translation>软件更新</translation>
+        <source>Developer and open source software</source>
+        <translation>开发者和开源软件</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/Dev/Main.qml" line="11"/>
+        <source>Dev</source>
+        <translation>开发测试内容</translation>
     </message>
     <message>
         <location filename="../src/digitalwellbeing.cpp" line="23"/>
@@ -577,12 +582,12 @@
     <message>
         <location filename="../src/qml/User/Main.qml" line="149"/>
         <source>Account type</source>
-        <translation>类型</translation>
+        <translation>用户类型</translation>
     </message>
     <message>
         <location filename="../src/qml/User/Main.qml" line="155"/>
         <source>Standard</source>
-        <translation>标准</translation>
+        <translation>标准用户</translation>
     </message>
     <message>
         <location filename="../src/qml/User/Main.qml" line="155"/>
@@ -1063,7 +1068,7 @@
     <message>
         <location filename="../src/qml/SideBar.qml" line="145"/>
         <source>Dock</source>
-        <translation>Dock栏</translation>
+        <translation>程序坞</translation>
     </message>
     <message>
         <location filename="../src/qml/SideBar.qml" line="154"/>
@@ -1152,8 +1157,13 @@
     </message>
     <message>
         <location filename="../src/qml/SideBar.qml" line="253"/>
+        <source>Update</source>
+        <translation>开发测试</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/SideBar.qml" line="262"/>
         <source>About</source>
-        <translation>关于</translation>
+        <translation>关于CuteOS</translation>
     </message>
 </context>
 <context>

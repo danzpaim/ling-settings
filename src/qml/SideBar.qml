@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CuteOS Team.
+ * Copyright (C) 2023 CuteOS Team.
  *
  * Author:     revenmartin <revenmartin@gmail.com>
  *
@@ -56,7 +56,7 @@ Item {
             name: "wlan"
             page: "qrc:/qml/WLAN/Main.qml"
             iconSource: "wlan.svg"
-            iconColor: "#0067FF"
+            iconColor: "#4690FF"
             category: qsTr("Network and connection")
         }
 
@@ -65,7 +65,7 @@ Item {
             name: "ethernet"
             page: "qrc:/qml/Wired/Main.qml"
             iconSource: "network.svg"
-            iconColor: "#0067FF"
+            iconColor: "#1B76FF"
             category: qsTr("Network and connection")
         }
 
@@ -137,7 +137,7 @@ Item {
             name: "dock"
             page: "qrc:/qml/Dock/Main.qml"
             iconSource: "dock.svg"
-            iconColor: "#8585FC"
+            iconColor: "#FC85EE"
             category: qsTr("Display and appearance")
         }
 
@@ -146,7 +146,7 @@ Item {
             name: "accounts"
             page: "qrc:/qml/User/Main.qml"
             iconSource: "accounts.svg"
-            iconColor: "#DA7C43"
+            iconColor: "#4366DA"
             category: qsTr("System")
         }
 
@@ -250,13 +250,31 @@ Item {
         }
 
         ListElement {
+            title: qsTr("Update")
+            name: "Update"
+            page: "qrc:/qml/Dev/Main.qml"
+            iconSource: "about.svg"
+            iconColor: "#1A4CFF"
+            category: qsTr("System")
+        }
+
+        ListElement {
             title: qsTr("About")
             name: "about"
             page: "qrc:/qml/About/Main.qml"
             iconSource: "about.svg"
-            iconColor: "#24A7FD"
+            iconColor: "#1ABAFF"
             category: qsTr("System")
         }
+
+        // ListElement {
+        //     title: qsTr("Dev")
+        //     name: "Develop"
+        //     page: "qrc:/qml/Develop/Main.qml"
+        //     iconSource: "about.svg"
+        //     iconColor: "#FF56A5"
+        //     category: qsTr("System")
+        // }
     }
 
     ColumnLayout {

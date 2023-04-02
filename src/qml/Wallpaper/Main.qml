@@ -233,10 +233,13 @@ ItemPage {
             Component.onCompleted: {
                 model.append({"bgColor": "#2B8ADA"})
                 model.append({"bgColor": "#4DA4ED"})
+                model.append({"bgColor": "#FF5795"})
+                model.append({"bgColor": "#008484"})
                 model.append({"bgColor": "#B7E786"})
                 model.append({"bgColor": "#F2BB73"})
                 model.append({"bgColor": "#EE72EB"})
                 model.append({"bgColor": "#F0905A"})
+                model.append({"bgColor": "#C6C6C6"})
                 model.append({"bgColor": "#595959"})
                 model.append({"bgColor": "#000000"})
             }

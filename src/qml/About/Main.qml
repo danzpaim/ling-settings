@@ -100,12 +100,12 @@ ItemPage {
             }
 
             Button {
-                text: qsTr("Software Update")
+                text: qsTr("Developer and open source software")
                 flat: true
                 Layout.alignment: Qt.AlignHCenter
                 visible: control.error
                 onClicked: {
-                Qt.openUrlExternally("https://www.cuteos.cn/update/20/update.html")
+                Qt.openUrlExternally("https://www.cuteos.cn/developer/")
                 }
             }
         }

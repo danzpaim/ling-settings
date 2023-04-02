@@ -94,8 +94,8 @@
     </message>
     <message>
         <location filename="../src/qml/About/Main.qml" line="128"/>
-        <source>Software Update</source>
-        <translation type="unfinished"></translation>
+        <source>Developer and open source software</source>
+        <translation type="Developer and open source software"></translation>
     </message>
     <message>
         <location filename="../src/qml/Appearance/Main.qml" line="30"/>
