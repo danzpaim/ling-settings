@@ -47,7 +47,7 @@ ItemPage {
 //            }
 
             Label {
-                text: qsTr(" ").arg(about.prettyProductName)
+                text: qsTr("LTS").arg(about.prettyProductName)
                 visible: !about.isCuteOS
                 Layout.alignment: Qt.AlignTop | Qt.AlignHCenter
                 color: CuteUI.Theme.disabledTextColor
@@ -99,13 +99,28 @@ ItemPage {
                 height: CuteUI.Units.smallSpacing
             }
 
-            Button {
-                text: qsTr("Developer and open source software")
-                flat: true
-                Layout.alignment: Qt.AlignHCenter
-                visible: control.error
-                onClicked: {
-                Qt.openUrlExternally("https://www.cuteos.cn/developer/")
+            StandardButton {
+                text: ""
+                Layout.fillWidth: true
+                visible: about.isCuteOS
+                onClicked: Qt.openUrlExternally("https://www.cuteos.cn/developer/")
+
+                RowLayout {
+                    anchors.fill: parent
+                    anchors.leftMargin: CuteUI.Units.largeSpacing * 1.5
+                    anchors.rightMargin: CuteUI.Units.largeSpacing * 1.5
+
+                    Label {
+                        text: qsTr("Open source software")
+                    }
+
+                    Item {
+                        Layout.fillWidth: true
+                    }
+
+                    Label {
+                        text: qsTr("→")
+                    }
                 }
             }
         }

@@ -58,9 +58,9 @@
         <translation>关于CuteOS</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="79"/>
-        <source> </source>
-        <translation> </translation>
+        <location filename="../src/qml/About/Main.qml" line="50"/>
+        <source>LTS</source>
+        <translation>CuteOS LTS长期支持稳定版本 </translation>
     </message>
     <message>
         <location filename="../src/qml/About/Main.qml" line="91"/>
@@ -103,9 +103,29 @@
         <translation>开发者和开源软件</translation>
     </message>
     <message>
-        <location filename="../src/qml/Dev/Main.qml" line="11"/>
+        <location filename="../src/qml/Dev/Main.qml" line="10"/>
         <source>Dev</source>
         <translation>开发测试内容</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/Dev/Main.qml" line="38"/>
+        <source>Update Log</source>
+        <translation>更新日志</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/Dev/Main.qml" line="48"/>
+        <source>Update Push</source>
+        <translation>更新推送</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/Dev/Main.qml" line="58"/>
+        <source>Contributor List</source>
+        <translation>贡献者名单</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/Dev/Main.qml" line="71"/>
+        <source>Cute software updates available</source>
+        <translation>可用的Cute软件更新</translation>
     </message>
     <message>
         <location filename="../src/digitalwellbeing.cpp" line="23"/>

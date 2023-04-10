@@ -195,7 +195,6 @@ ItemPage {
                 id: _addUserButton
                 text: qsTr("Add user")
                 Layout.fillWidth: true
-                visible: !newUserItem.visible
                 onClicked: {
                     newUserItem.visible = true
                     userNameField.forceActiveFocus()
