@@ -168,7 +168,7 @@
     <message>
         <location filename="../src/qml/Fonts/Main.qml" line="200"/>
         <source>Anti-Aliasing</source>
-        <translation>Anti-Aliasing</translation>
+        <translation>Suavização de Serrilhado</translation>
     </message>
     <message>
         <location filename="../src/qml/Dock/Main.qml" line="95"/>
