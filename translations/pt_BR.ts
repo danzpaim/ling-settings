@@ -459,7 +459,7 @@
     <message>
         <location filename="../src/qml/Application/Main.qml" line="52"/>
         <source>Web browser</source>
-        <translation>Navegador</translation>
+        <translation>Navegador Web</translation>
     </message>
     <message>
         <location filename="../src/qml/Application/Main.qml" line="60"/>
